@@ -1,0 +1,30 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "dnxEntityETLTool Console Application",
+  "authors": [ "nteague" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "EntityFramework.Commands": "7.0.0-beta7",
+    "EntityFramework.SqlServer": "7.0.0-beta7",
+    "EntityFramework.SqlServer.Design": "7.0.0-beta7",
+    "EntityFramework.Relational": "7.0.0-beta7",
+    "EntityFramework.Relational.Design": "7.0.0-beta7",
+    "EntityFramework7.Npgsql": "3.1.0-beta7-1",
+    "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta7",
+    "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta7",
+    "Microsoft.Framework.Configuration.Json": "1.0.0-beta7",
+    "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta7"
+  },
+
+  "commands": {
+    "mg": "EntityFramework.Commands"
+  },
+
+  "frameworks": {
+    "dnx46": { }
+  }
+
+}

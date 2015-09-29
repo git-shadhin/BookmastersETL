@@ -1,0 +1,7 @@
+﻿{
+  "Data": {
+    "Epace": "Server=10.10.10.198:5432;Database=epace;User Id=epace_read;Password=epace",
+    "Macola": "Server=SEAL;Database=[001];Integrated Security = True",
+    "bETL"  :  "Server=SEAL;Database=BookmastersETL;User Id=bmi_connect;Password=automated"
+	}
+}
